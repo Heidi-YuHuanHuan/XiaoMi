@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #fff;
+    position: relative;
+    font:14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+ul,li{
+    list-style: none;
+    margin: 0;
+    padding : 0;
+}
+a{
+    text-decoration: none;
+    color:#434343;
+}
+#wrapper{
+    width: 100%;
+    position: relative;
+    display: block;
+    min-height: auto;
+}
+#wrapper .h-panel{
+    width: 1130px;
+    margin: 0 auto;
+    position: relative;
+}
+.h-panel .h-logo a{
+    display: block;
+    height: 98px;
+    width: 200px;
+}
+#wrapper .h-panel img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    border-radius: 4px;
+    top: 30px;
+    float: left;
+}
+#wrapper .h-panel .title{
+    font-size: 32px;
+    position: relative;
+    left: 20px;
+    padding-top: 20px;
+    font-weight: 500;
+}
+#wrapper .h-panel .desc{
+    font-size: 10px;
+    position: relative;
+    top: -8px;
+    left: 70px;
+}
+#login-panel-banner{
+    position: relative;
+}
+#login-panel-banner img{
+    width: 100%;
+    height: 555px;
+    display: block;
+}
+.wrap{
+    position: absolute;
+    width: 410px;
+    height: 525px;
+    background-color: #fff;
+    right: 117px;
+    top: 130px;
+}
+.login-main .nav-tabs-panel{
+    display: block;
+}
+.nav-tabs{
+    padding: 27px 0 24px;
+    color: #666;
+    font-size: 22px;
+    text-align: center;
+}
+.nav-tabs a:hover{
+    color: #ff5700;
+}
+.now{
+    color:#ff5700;
+}
+.nav-tabs .nav-tabs-line{
+    width: 1px;
+    height: 24px;
+    border: 1px solid #e0e0e0;
+    margin: 0 42px 0 42px;
+}
+.login-class input{
+    width: 306px;
+    height: 22px;
+    line-height: 22px;
+    display: block;
+    padding: 13px 16px 13px 14px;
+    color: #4a4a4a;
+    border: 1px solid #e0e0e0;
+    margin-top: 15px;
+    margin-left: 35px;
+}
+.error-tip .error-tip-image{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 15px;
+    left: 35px;
+    display: none;
+}
+.error-tip .error-tip-text{
+    position: relative;
+    color: #ff6700;
+    left: 55px;
+    top: -3px;
+}
+.btn-bg input{
+    width: 348px;
+    height: 50px;
+    background-color: #ff6700;
+    line-height: 50px;
+    display: block;
+    cursor:pointer;
+    font-size: 14px;
+    text-align: center;
+    padding: 0;
+    color: #fff;
+}
+.saoma{
+    position: absolute;
+    top: 180px;
+    display: none;
+}
+.saoma img{
+    position: relative;
+    left: 120px;
+}
+.saoma p{
+    color: #757575;
+    text-align: center;
+}
+.saoma span{
+    color: #ff5700;
+    padding: 0 8px;
+}
+.saoma .saoma-tip{
+    margin-top: 10px;
+    margin-left: 65px;
+}
+.other-panel{
+    position: relative;
+}
+.other-panel .sms-link a{
+    color: #ff6700;
+    line-height: normal;
+    height: auto;
+    position: relative;
+    top: 5px;
+    margin-left: 35px;
+}
+.reverse {
+    position: relative;
+    float: right;
+    right: 25px;
+    top: 5px;
+    color: #757575;
+}
+.reverse-line{
+    background-color: #999;
+    margin: 0 4px;
+    padding-left: 1px;
+}
+.reverse a{
+    color: #999;
+}
+.oth-type-title{
+    position: relative;
+    left: 35px;
+    width: 348px;
+    top: 130px;
+}
+.oth-type-title .oth-type-line1{
+    width: 125px;
+    height: 1px;
+    position: relative;
+    background-color: #e0e0e0;
+    top: 12px;
+}
+.oth-type-title .oth-type-line2{
+    width: 125px;
+    height: 1px;
+    position: relative;
+    background-color: #e0e0e0;
+    top: -9px;
+    float: right;
+}
+.oth-type-title legend{
+    text-align: center;
+    color: #bbb;
+}
+.oth-type-title .sns-login-link{
+    height: 37px;
+    position: relative;
+    margin-top: 10px;
+}
+.sns-login-link li{
+    float: left;
+    padding: 0 15px;
+    position: relative;
+    left: 66px;
+}
+.sns-login-link a{
+    display: block;
+}
+.sns-login-link img{
+    width: 30px;
+    height: 30px;
+}
+#custom-display{
+    position: relative;
+}
+#footer-custom-display{
+    width: 1349px;
+    height: 80px;
+    margin-top: 60px;
+}
+#footer-custom-display .nf-link{
+    height: 20px;
+    position: relative;
+}
+.nf-link li{
+    float: left;
+    position: relative;
+    left: 35%;
+    padding: 0 20px;
+}
+.nf-link ul li:first-child{
+    color: #333;
+}
+.nf-link a{
+    display: block;
+    color: #757575;
+}
+.nf-link a:hover{
+    color: #333;
+}
+.nf-info{
+    color: #757575;
+    position: relative;
+    padding-top: 10px;
+    text-align: center;
+}
+.nf-info a{
+    color: #757575;
+}
